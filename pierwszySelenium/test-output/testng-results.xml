@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Suite" duration-ms="37412" started-at="2015-10-19T15:10:10Z" finished-at="2015-10-19T15:10:47Z">
+    <groups>
+    </groups>
+    <test name="My Test" duration-ms="37412" started-at="2015-10-19T15:10:10Z" finished-at="2015-10-19T15:10:47Z">
+      <class name="automationFramework.PopupWindows">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automationFramework.PopupWindows@2e510e35]" name="initialize" is-config="true" duration-ms="3561" started-at="2015-10-19T17:10:21Z" finished-at="2015-10-19T17:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newWindowsTesting()[pri:0, instance:automationFramework.PopupWindows@2e510e35]" name="newWindowsTesting" duration-ms="7204" started-at="2015-10-19T17:10:25Z" finished-at="2015-10-19T17:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowsTesting -->
+        <test-method status="PASS" signature="newWindowsTesting2()[pri:0, instance:automationFramework.PopupWindows@2e510e35]" name="newWindowsTesting2" duration-ms="7313" started-at="2015-10-19T17:10:32Z" finished-at="2015-10-19T17:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowsTesting2 -->
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:automationFramework.PopupWindows@2e510e35]" name="cleaning" is-config="true" duration-ms="412" started-at="2015-10-19T17:10:39Z" finished-at="2015-10-19T17:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- automationFramework.PopupWindows -->
+      <class name="automationFramework.Mactions">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automationFramework.Mactions@787169e6]" name="initialize" is-config="true" duration-ms="3713" started-at="2015-10-19T17:10:40Z" finished-at="2015-10-19T17:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="actions()[pri:0, instance:automationFramework.Mactions@787169e6]" name="actions" duration-ms="3278" started-at="2015-10-19T17:10:43Z" finished-at="2015-10-19T17:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:automationFramework.Mactions@787169e6]" name="cleaning" is-config="true" duration-ms="384" started-at="2015-10-19T17:10:47Z" finished-at="2015-10-19T17:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- automationFramework.Mactions -->
+      <class name="automationFramework.GetDataFromXml">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:automationFramework.GetDataFromXml@5ddfb8d0]" name="beforeSuite" is-config="true" duration-ms="5020" started-at="2015-10-19T17:10:10Z" finished-at="2015-10-19T17:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testUserLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automationFramework.GetDataFromXml@5ddfb8d0]" name="testUserLogin" duration-ms="6002" started-at="2015-10-19T17:10:15Z" finished-at="2015-10-19T17:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://opensource.demo.orangehrm.com/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:automationFramework.GetDataFromXml@5ddfb8d0]" name="afterSuite" is-config="true" duration-ms="489" started-at="2015-10-19T17:10:21Z" finished-at="2015-10-19T17:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- automationFramework.GetDataFromXml -->
+    </test> <!-- My Test -->
+  </suite> <!-- My Suite -->
+</testng-results>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Suite" duration-ms="74520" started-at="2015-10-21T10:38:21Z" finished-at="2015-10-21T10:39:35Z">
+    <groups>
+    </groups>
+    <test name="My Test" duration-ms="74520" started-at="2015-10-21T10:38:21Z" finished-at="2015-10-21T10:39:35Z">
+      <class name="test.java.GetDataFromXml">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="beforeSuite" is-config="true" duration-ms="3672" started-at="2015-10-21T12:38:58Z" finished-at="2015-10-21T12:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testUserLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="testUserLogin" duration-ms="6483" started-at="2015-10-21T12:39:02Z" finished-at="2015-10-21T12:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://opensource.demo.orangehrm.com/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="afterSuite" is-config="true" duration-ms="384" started-at="2015-10-21T12:39:08Z" finished-at="2015-10-21T12:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.java.GetDataFromXml -->
+      <class name="test.java.Mactions">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="initialize" is-config="true" duration-ms="3740" started-at="2015-10-21T12:39:28Z" finished-at="2015-10-21T12:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="actions()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="actions" duration-ms="2934" started-at="2015-10-21T12:39:32Z" finished-at="2015-10-21T12:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions -->
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="cleaning" is-config="true" duration-ms="363" started-at="2015-10-21T12:39:35Z" finished-at="2015-10-21T12:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- test.java.Mactions -->
+      <class name="test.java.PopupWindows">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="initialize" is-config="true" duration-ms="3778" started-at="2015-10-21T12:39:09Z" finished-at="2015-10-21T12:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newWindowsTesting()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="newWindowsTesting" duration-ms="8163" started-at="2015-10-21T12:39:13Z" finished-at="2015-10-21T12:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowsTesting -->
+        <test-method status="PASS" signature="newWindowsTesting2()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="newWindowsTesting2" duration-ms="7272" started-at="2015-10-21T12:39:21Z" finished-at="2015-10-21T12:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowsTesting2 -->
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="cleaning" is-config="true" duration-ms="429" started-at="2015-10-21T12:39:28Z" finished-at="2015-10-21T12:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- test.java.PopupWindows -->
+      <class name="test.java.FirstTestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="beforeSuite" is-config="true" duration-ms="23191" started-at="2015-10-21T12:38:21Z" finished-at="2015-10-21T12:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="test()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="test" duration-ms="11526" started-at="2015-10-21T12:38:44Z" finished-at="2015-10-21T12:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="after" is-config="true" duration-ms="2564" started-at="2015-10-21T12:38:56Z" finished-at="2015-10-21T12:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.java.FirstTestCase -->
+    </test> <!-- My Test -->
+  </suite> <!-- My Suite -->
+</testng-results>

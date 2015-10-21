@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+       <test name="My Test">
+              <parameter name="browser" value="firefox" />
+              <parameter name="url_address" value="http://opensource.demo.orangehrm.com/index.php/auth/login" />
+              <parameter name="username" value="admin" />
+              <parameter name="password" value="admin" />
+              <classes>
+			  	<class name="automationFramework.GetDataFromXml" />
+			  	<class name="automationFramework.PopupWindows" />
+			  	<class name="automationFramework.Mactions" />
+			  	
+              </classes>
+       </test>
+</suite>

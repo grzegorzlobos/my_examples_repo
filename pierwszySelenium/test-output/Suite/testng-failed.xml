@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="username" value="admin"/>
+  <parameter name="url_address" value="http://opensource.demo.orangehrm.com/index.php/auth/login"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="password" value="admin"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="username" value="admin"/>
+    <parameter name="url_address" value="http://opensource.demo.orangehrm.com/index.php/auth/login"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="password" value="admin"/>
+    <classes>
+      <class name="automationFramework.GetDataFromXml">
+        <methods>
+          <include name="testUserLogin"/>
+        </methods>
+      </class> <!-- automationFramework.GetDataFromXml -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
