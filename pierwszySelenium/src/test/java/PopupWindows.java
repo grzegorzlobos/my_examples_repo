@@ -14,16 +14,13 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 
-
 public class PopupWindows {
 
 
     private static final String URL_ADDRESS = "http://output.jsbin.com/texane";
     private WebDriver driver = null;
     private static Logger Lo = Logger.getLogger(PopupWindows.class);
-    //DOMConfigurator.configure("log4j.xml");
-    
-    
+    DOMConfigurator.configure("log4j.x‌​ml");
  
     
 
