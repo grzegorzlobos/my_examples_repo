@@ -32,8 +32,8 @@ public class FirstTestCase {
     
     // LoginPage
     driver.findElement(By.className("close")).click();
-    driver.findElement(By.id("userForm_login")).sendKeys("greg842");
-    driver.findElement(By.id("userForm_password")).sendKeys("Stinger1");
+    driver.findElement(By.id("userForm_login")).sendKeys("username");
+    driver.findElement(By.id("userForm_password")).sendKeys("password");
     driver.findElement(By.xpath("html/body/div[3]/section/div[1]/div[1]/div[1]/div[2]/form/div[9]/div/button")).click();
     
     // UserPage
@@ -52,5 +52,7 @@ public class FirstTestCase {
     	
 		
 	}
+
+
 
 
