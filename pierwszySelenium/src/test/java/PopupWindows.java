@@ -20,7 +20,7 @@ public class PopupWindows {
     private static final String URL_ADDRESS = "http://output.jsbin.com/texane";
     private WebDriver driver = null;
     private static Logger Lo = Logger.getLogger(PopupWindows.class);
-    DOMConfigurator.configure("log4j.x‌​ml");
+    //DOMConfigurator.configure("log4j.x‌​ml");
  
     
 
@@ -84,3 +84,5 @@ public class PopupWindows {
         driver.quit();
     }
 }
+
+
