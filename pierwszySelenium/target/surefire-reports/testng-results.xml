@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="My Suite" duration-ms="74520" started-at="2015-10-21T10:38:21Z" finished-at="2015-10-21T10:39:35Z">
+  <suite name="My Suite" duration-ms="110398" started-at="2015-10-27T16:49:42Z" finished-at="2015-10-27T16:51:32Z">
     <groups>
     </groups>
-    <test name="My Test" duration-ms="74520" started-at="2015-10-21T10:38:21Z" finished-at="2015-10-21T10:39:35Z">
+    <test name="My Test" duration-ms="110398" started-at="2015-10-27T16:49:42Z" finished-at="2015-10-27T16:51:32Z">
       <class name="test.java.GetDataFromXml">
-        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="beforeSuite" is-config="true" duration-ms="3672" started-at="2015-10-21T12:38:58Z" finished-at="2015-10-21T12:39:02Z">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:test.java.GetDataFromXml@2d7509be]" name="beforeSuite" is-config="true" duration-ms="4118" started-at="2015-10-27T17:50:43Z" finished-at="2015-10-27T17:50:47Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testUserLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="testUserLogin" duration-ms="6483" started-at="2015-10-21T12:39:02Z" finished-at="2015-10-21T12:39:08Z">
+        <test-method status="PASS" signature="testUserLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.GetDataFromXml@2d7509be]" name="testUserLogin" duration-ms="7034" started-at="2015-10-27T17:50:47Z" finished-at="2015-10-27T17:50:54Z">
           <params>
             <param index="0">
               <value>
@@ -39,53 +39,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserLogin -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.java.GetDataFromXml@6083dc9b]" name="afterSuite" is-config="true" duration-ms="384" started-at="2015-10-21T12:39:08Z" finished-at="2015-10-21T12:39:09Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.java.GetDataFromXml@2d7509be]" name="afterSuite" is-config="true" duration-ms="396" started-at="2015-10-27T17:50:54Z" finished-at="2015-10-27T17:50:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- test.java.GetDataFromXml -->
       <class name="test.java.Mactions">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="initialize" is-config="true" duration-ms="3740" started-at="2015-10-21T12:39:28Z" finished-at="2015-10-21T12:39:32Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.Mactions@63ce0072]" name="initialize" is-config="true" duration-ms="3998" started-at="2015-10-27T17:51:18Z" finished-at="2015-10-27T17:51:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="actions()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="actions" duration-ms="2934" started-at="2015-10-21T12:39:32Z" finished-at="2015-10-21T12:39:35Z">
+        <test-method status="PASS" signature="actions()[pri:0, instance:test.java.Mactions@63ce0072]" name="actions" duration-ms="3142" started-at="2015-10-27T17:51:22Z" finished-at="2015-10-27T17:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- actions -->
-        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.Mactions@7a67ab8f]" name="cleaning" is-config="true" duration-ms="363" started-at="2015-10-21T12:39:35Z" finished-at="2015-10-21T12:39:35Z">
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.Mactions@63ce0072]" name="cleaning" is-config="true" duration-ms="349" started-at="2015-10-27T17:51:26Z" finished-at="2015-10-27T17:51:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleaning -->
       </class> <!-- test.java.Mactions -->
-      <class name="test.java.PopupWindows">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="initialize" is-config="true" duration-ms="3778" started-at="2015-10-21T12:39:09Z" finished-at="2015-10-21T12:39:13Z">
+      <class name="test.java.ScrollingPageWithJavaScript">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.ScrollingPageWithJavaScript@697f6f8e]" name="initialize" is-config="true" duration-ms="6003" started-at="2015-10-27T17:51:26Z" finished-at="2015-10-27T17:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="newWindowsTesting()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="newWindowsTesting" duration-ms="8163" started-at="2015-10-21T12:39:13Z" finished-at="2015-10-21T12:39:21Z">
+        <test-method status="PASS" signature="newWindowsTesting()[pri:0, instance:test.java.ScrollingPageWithJavaScript@697f6f8e]" name="newWindowsTesting" duration-ms="107" started-at="2015-10-27T17:51:32Z" finished-at="2015-10-27T17:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newWindowsTesting -->
-        <test-method status="PASS" signature="newWindowsTesting2()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="newWindowsTesting2" duration-ms="7272" started-at="2015-10-21T12:39:21Z" finished-at="2015-10-21T12:39:28Z">
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.ScrollingPageWithJavaScript@697f6f8e]" name="cleaning" is-config="true" duration-ms="429" started-at="2015-10-27T17:51:32Z" finished-at="2015-10-27T17:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- test.java.ScrollingPageWithJavaScript -->
+      <class name="test.java.PopupWindows">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test.java.PopupWindows@3ebec13]" name="initialize" is-config="true" duration-ms="3658" started-at="2015-10-27T17:50:55Z" finished-at="2015-10-27T17:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newWindowsTesting()[pri:0, instance:test.java.PopupWindows@3ebec13]" name="newWindowsTesting" duration-ms="11700" started-at="2015-10-27T17:50:58Z" finished-at="2015-10-27T17:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowsTesting -->
+        <test-method status="PASS" signature="newWindowsTesting2()[pri:0, instance:test.java.PopupWindows@3ebec13]" name="newWindowsTesting2" duration-ms="8029" started-at="2015-10-27T17:51:10Z" finished-at="2015-10-27T17:51:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newWindowsTesting2 -->
-        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.PopupWindows@3b887b2]" name="cleaning" is-config="true" duration-ms="429" started-at="2015-10-21T12:39:28Z" finished-at="2015-10-21T12:39:28Z">
+        <test-method status="PASS" signature="cleaning()[pri:0, instance:test.java.PopupWindows@3ebec13]" name="cleaning" is-config="true" duration-ms="341" started-at="2015-10-27T17:51:18Z" finished-at="2015-10-27T17:51:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleaning -->
       </class> <!-- test.java.PopupWindows -->
       <class name="test.java.FirstTestCase">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="beforeSuite" is-config="true" duration-ms="23191" started-at="2015-10-21T12:38:21Z" finished-at="2015-10-21T12:38:44Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.java.FirstTestCase@40378309]" name="beforeSuite" is-config="true" duration-ms="28123" started-at="2015-10-27T17:49:42Z" finished-at="2015-10-27T17:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="test()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="test" duration-ms="11526" started-at="2015-10-21T12:38:44Z" finished-at="2015-10-21T12:38:56Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.java.FirstTestCase@40378309]" name="test" duration-ms="30436" started-at="2015-10-27T17:50:10Z" finished-at="2015-10-27T17:50:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.java.FirstTestCase@2902a840]" name="after" is-config="true" duration-ms="2564" started-at="2015-10-21T12:38:56Z" finished-at="2015-10-21T12:38:58Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.java.FirstTestCase@40378309]" name="after" is-config="true" duration-ms="2509" started-at="2015-10-27T17:50:41Z" finished-at="2015-10-27T17:50:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

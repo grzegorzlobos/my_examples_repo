@@ -11,6 +11,7 @@
 			  	<class name="test.java.GetDataFromXml" />
 			  	<class name="test.java.PopupWindows" />
 			  	<class name="test.java.Mactions" />
+			  	<class name="test.java.ScrollingPageWithJavaScript" />
 			  	
               </classes>
        </test>
