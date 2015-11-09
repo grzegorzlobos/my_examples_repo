@@ -21,7 +21,7 @@ public class AppiumSampleTest {
 		  capabilities.setCapability("deviceName","1e730385");
 		  capabilities.setCapability("platformVersion","4.4.2");
 		  capabilities.setCapability("platformName","Android");
-		  capabilities.setCapability("appPackage","com.google.android.contacts");
+		  capabilities.setCapability("appPackage","com.android.contacts");
 		  capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
 		  myDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 		  myDriver.findElement(By.id("com.android.contacts:id/floating_action_button")).click();
@@ -36,6 +36,7 @@ public class AppiumSampleTest {
 		  myDriver.scrollTo("Phone");
 		  List<WebElement> txtbox1 = myDriver.findElements(By.className("android.widget.EditText"));
 		  txtbox1.get(0).sendKeys("Adam"); 
-		  myDriver.findElement(By.className("android.widget.ImageButton")).click();	  
+		  myDriver.findElement(By.className("android.widget.ImageButton")).click();
+		  myDriver.quit();
 		 }
 }
