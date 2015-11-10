@@ -1,0 +1,34 @@
+package jtest;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import application.*;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runner.RunWith;
+
+
+public class TestApplicationUnderTest {
+
+	ApplicationUnderTest appUnderTest;
+	
+	@Before
+	public void setup() throws Exception {
+		appUnderTest = new ApplicationUnderTest();
+	}
+
+	@After
+	public void clean() throws Exception {
+		appUnderTest = null;
+	}
+	
+	
+
+	@Test
+	public void testAdd() {
+		assertEquals(10,appUnderTest.add(5,4));		
+	}
+}
