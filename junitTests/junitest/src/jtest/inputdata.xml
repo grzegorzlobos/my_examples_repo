@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test>
+     <value type="java.lang.Ingeter" >0</value>
+     <value type="java.lang.Ingeter" >0</value>
+     <value type="java.lang.Ingeter" >0</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >1</value>
+     <value type="java.lang.Ingeter" >1</value>
+     <value type="java.lang.Ingeter" >0</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >2</value>
+     <value type="java.lang.Ingeter" >1</value>
+     <value type="java.lang.Ingeter" >3</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >3</value>
+     <value type="java.lang.Ingeter" >2</value>
+     <value type="java.lang.Ingeter" >5</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >4</value>
+     <value type="java.lang.Ingeter" >3</value>
+     <value type="java.lang.Ingeter" >8</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >5</value>
+     <value type="java.lang.Ingeter" >5</value>
+     <value type="java.lang.Ingeter" >10</value>
+  </test>
+  <test>
+     <value type="java.lang.Ingeter" >6</value>
+     <value type="java.lang.Ingeter" >8</value>
+     <value type="java.lang.Ingeter" >14</value>
+  </test>
+</tests>

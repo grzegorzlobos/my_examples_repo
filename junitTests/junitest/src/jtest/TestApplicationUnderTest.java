@@ -51,6 +51,6 @@ public class TestApplicationUnderTest {
 	
 	@Test
 	public void testAdd() {
-		assertEquals(result,appUnderTest.add(input_a,input_b));		
+		assertEquals("Not equal",result,appUnderTest.add(input_a,input_b));		
 	}
 }

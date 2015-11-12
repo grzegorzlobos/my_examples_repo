@@ -3,5 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/eclipse-java-luna-SR2-win32-x86_64/eclipse/junitext-0.2.4/junitext-0.2.4/junitext-0.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse-java-luna-SR2-win32-x86_64/eclipse/junitext-0.2.4/junitext-0.2.4/junit-ui-runners-3.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse-java-luna-SR2-win32-x86_64/eclipse/JUnitParams-1.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
