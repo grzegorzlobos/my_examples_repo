@@ -4,7 +4,9 @@ my examples of scripts and usage of tools:
 - Selenium Webdriver in Java + TestNG
 - automation with Maven on CI server Jenkins, build&test, (log4j, js injection, passing params from xml) - pierwszySelenium
 - reading from repo properties, using Factory pattern, Page Objects - pageObjectProjectSelenium
-- Junit testing Java code, parameterized tests
+- Junit testing Java code, parameterized tests, mocking with Mockito
+
+
 
 
 
