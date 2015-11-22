@@ -7,7 +7,8 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
       TestApplicationUnderTest.class,
       TestApplicationUnderTest2.class,
-      TestBikes.class
+      TestBikes.class,
+      TestBikesMocking.class
         	})
 
 public class TestSuite {
