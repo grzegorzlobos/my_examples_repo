@@ -7,10 +7,7 @@ import org.openqa.selenium.WebDriver;
 import wtbox.pages.PageBase;
 
 
-/**
- * Google Search Page Object. 
- * @author Chon Chung
- */
+
 public class GoogleSearchPage  extends PageBase{
 	
 	private final static String pageTitle = "Google"; 
